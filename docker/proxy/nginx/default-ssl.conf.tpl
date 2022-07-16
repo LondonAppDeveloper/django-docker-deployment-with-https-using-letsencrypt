@@ -3,7 +3,7 @@ server {
     server_name ${DOMAIN} www.${DOMAIN};
 
     location /.well-known/acme-challenge/ {
-        root /vol/certbot/;
+        root /vol/www/;
     }
 
     location / {
