@@ -12,7 +12,7 @@ USER root
 RUN apk add --no-cache openssl bash
 RUN mkdir -p /vol/www && \
     chown nginx:nginx /vol/www && \
-    touch /etc/nginx//default-ssl.conf && \
+    touch /etc/nginx/default-ssl.conf && \
     chown nginx:nginx /etc/nginx/default-ssl.conf && \
     touch /etc/nginx/default.conf && \
     chown nginx:nginx /etc/nginx/default.conf && \
